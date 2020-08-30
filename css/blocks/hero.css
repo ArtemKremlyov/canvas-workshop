@@ -1,0 +1,28 @@
+.hero {
+    height: 736px;
+    background-image: url("../../img/hero-background.png");
+    background-size: cover;
+}
+.hero__title {
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin-bottom: 51px;
+}
+.hero__text {
+    color: #5B5B5B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 53px;
+    max-width: 612px;
+    line-height: 26px;
+}
+.hero__buttons {
+    display: flex;
+    align-items: center;
+}
+.hero__column {
+    width: 50%;
+}

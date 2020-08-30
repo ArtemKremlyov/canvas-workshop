@@ -1,0 +1,63 @@
+.header {
+    background-color: #ffffff;
+    height: 91px;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.header__logo-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+    margin-left: 15px;
+    max-width: 171px;
+}
+.header__left, .header__right {
+    display: flex;
+    align-items: center;
+}
+.header__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* NAV MENU */
+.nav__list {
+    display: flex;
+    margin-left: 101px;
+}
+.nav__item {
+    margin-right: 70px;
+}
+.nav__item:last-child {
+    margin-right: 0;
+}
+.nav__item:hover .nav__item-link{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    border-bottom: 1.5px solid #EC75FF;
+}
+.nav__item-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* RIGHT HALF */
+.tel--header {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+.tel--header::before {
+    content: '';
+    width: 15px;
+    height: 14px;
+    margin-right: 7px;
+    background-image: url("../../img/icons/phone-icon.png");
+    background-size: cover;
+}

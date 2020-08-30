@@ -1,0 +1,33 @@
+.support {
+    padding-top: 55px;
+}
+.support__list {
+    display: flex;
+}
+.support__item {
+    background-color: #FEF4FF;
+    height: 380px;
+    max-width: 360px;
+    margin-right: 77px;
+    text-align: center;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 34px;
+    padding-right: 33px;
+    padding-bottom: 28px;
+}
+.support__item-img {
+    position: absolute;
+    top: -54px;
+}
+.support__item-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    line-height: 25px;
+}
+.support__item:last-child {
+    margin-right: 0;
+}
