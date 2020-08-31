@@ -1,6 +1,8 @@
 .header {
     background-color: #ffffff;
     height: 91px;
+    position: fixed;
+    z-index: 222;
 }
 .header__logo {
     display: flex;
