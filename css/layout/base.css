@@ -31,6 +31,66 @@ button {
     display: flex;
     height: 100%;
 }
+.container.container--center {
+    display: flex;
+    justify-content: center;
+}
+.container.container--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.owl-stage-outer {
+    display: flex;
+    overflow: hidden;
+}
+.owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    left: 55px;
+    width: 90%;
+    justify-content: space-between;
+}
+.owl-prev {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/icons/slider-arrow.png);
+    background-size: cover;
+    transform:rotate(180deg);
+}
+.owl-next {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../img/icons/slider-arrow.png);
+    background-size: cover;
+}
+.owl-dots {
+    display: flex;
+    position: absolute;
+    bottom: -44px;
+    justify-content: center;
+    width: 100%;
+}
+.owl-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ECA3EE;
+    padding: 0;
+    margin-right: 5px;
+}
+.owl-dot.active {
+    background-color: #F03CF3;
+}
+.owl-dot:last-child {
+    margin-right: 0;
+}
 
 /* UNIVERSAL STYLING */
 .tel {

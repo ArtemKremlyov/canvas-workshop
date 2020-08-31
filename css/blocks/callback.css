@@ -1,0 +1,64 @@
+.callback {
+    background-image: url(../../img/callback-background.png);
+    background-size: 100%;
+    padding-bottom: 273px;
+}
+.callback .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.callback__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 26px;
+    color: #494949;
+}
+.callback__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 76px;
+}
+.callback__form-row {
+    display: flex;
+    max-width: 482px;
+    margin-bottom: 27px;
+}
+.callback__form-row:nth-child(2) {
+    margin-bottom: 42px;
+}
+.callback__form-input {
+    flex: 1;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(216, 191, 225, 0.63);
+    border-radius: 78px;
+    border: 0;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.callback__form-input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+.callback__form-submit {
+    margin: 0 auto;
+    display: block;
+}

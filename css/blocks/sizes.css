@@ -1,0 +1,14 @@
+.sizes {
+    padding-top: 115px;
+    text-align: center;
+    background-image: url('../../img/sizes-background.png');
+    background-size: cover;
+    background-position-y: 278px;
+    background-repeat: no-repeat;
+}
+.sizes__title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 48px;
+    color: #494949;
+}

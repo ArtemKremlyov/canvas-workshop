@@ -1,0 +1,77 @@
+.footer {
+    height: 215px;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+.footer__logo-img {
+    height: 90px;
+}
+.footer__logo-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    max-width: 252px;
+    margin-left: 13px;
+}
+.footer__delivery {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    max-width: 352px;
+
+    display: flex;
+    align-items: center;
+}
+.footer__delivery::before {
+    content: '';
+    background-image: url(../../img/icons/airbus-icon.png);
+    background-size: cover;
+    margin-right: 6px;
+    width: 61px;
+    height: 28px;
+    margin-top: -16px;
+}
+.footer__item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 17px;
+
+    display: flex;
+    align-items: center;
+}
+.footer__item:last-child {
+    margin-bottom: 0;;
+}
+.footer__item:before {
+    content: '';
+    background-size: cover;
+    margin-right: 17px;
+}
+.footer__item.tel::before {
+    background-image: url(../../img/icons/phone-icon.png);
+    width: 21px;
+    height: 20px;
+}
+.footer__item.email::before {
+    background-image: url(../../img/icons/mail-icon.png);
+    width: 21px;
+    height: 18.5px;
+}
+.footer__item.adress::before {
+    background-image: url(../../img/icons/adress-icon.png);
+    height: 27.5px;
+    width: 19.5px;
+}

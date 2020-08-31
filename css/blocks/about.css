@@ -1,7 +1,6 @@
 .about {
     padding-top: 110px;
     text-align: center;
-    margin-bottom: 50px;
 }
 .about__title {
     font-family: Roboto;
@@ -18,6 +17,33 @@
     letter-spacing: 0.005em;
     margin-bottom: 37px;
 }
+.about__button {
+    margin-bottom: 72px;
+}
 .about__list {
     display: flex;
+    justify-content:center;
+}
+.about__item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: left;
+}
+.about__item-number {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 36px;
+    color: #515151;
+    display: inline;
+    position: relative;
+    left: 20px;
+}
+.about__item-text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 143.19%;
+    color: #515151;
+    padding-left: 73px;
+    max-width: 250px;
 }
