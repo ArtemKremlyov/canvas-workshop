@@ -21,11 +21,11 @@
     top: -54px;
 }
 .support__item-text {
-    font-family: Roboto;
+    font-family: Montserrat;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;   
     font-size: 18px;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
 }
 .support__item:last-child {

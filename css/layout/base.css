@@ -25,6 +25,7 @@ button {
 .container {
     margin: 0 auto;
     max-width: 1210px;
+    padding: 0 18px;
 }
 .container.container--header {
     max-width: 1550px;

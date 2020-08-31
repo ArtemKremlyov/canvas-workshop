@@ -10,12 +10,13 @@
     height: 62px;
 }
 .header__logo-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
     font-size: 18px;
 
     margin-left: 15px;
-    max-width: 171px;
+    max-width: 196px;
 }
 .header__left, .header__right {
     display: flex;
@@ -33,7 +34,7 @@
     margin-left: 101px;
 }
 .nav__item {
-    margin-right: 70px;
+    margin-right: 50px;
 }
 .nav__item:last-child {
     margin-right: 0;
@@ -45,8 +46,9 @@
     border-bottom: 1.5px solid #EC75FF;
 }
 .nav__item-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
     font-size: 16px;
 }
 
@@ -55,6 +57,9 @@
     font-size: 18px;
     display: flex;
     align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
 }
 .tel--header::before {
     content: '';
