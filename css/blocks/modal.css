@@ -1,0 +1,115 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    z-index: 9999;
+}
+.modal.hidden {
+    position: inherit;
+}
+.modal.hidden .modal__window {
+    right: -3000px;
+}
+.modal__window {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform:translate(50%, -50%);
+
+    background-color: #FEF6FF;
+    border-radius: 65px;
+    padding-left: 79px;
+    padding-right: 78px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    transition: 0.5s;
+}
+
+.modal__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #494949;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+.modal__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #494949;
+    margin-bottom: 61px;
+}
+.modal__gradient {
+    background-image: url(../../img/modal-background.png);
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+}
+.form__modal {
+    width: 675px;
+}
+.form__modal-row {
+    display: flex;
+}
+.form__modal-row:nth-child(1) {
+    margin-bottom: 21px;
+}
+.form__modal-input {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 10px rgba(12, 11, 11, 0.1);
+    border-radius: 30px;
+    padding-left: 29px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    flex: 1;
+    border:0;
+
+    display: flex;
+    align-items: flex-start;
+}
+.form__modal-input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+.form__modal-label {
+    display: flex;
+    align-items: center;
+    color: #494949;
+    margin-bottom: 31px;
+}
+.form__modal-agree {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 15px;
+}
+.form__modal-button {
+    background: linear-gradient(259.42deg, #F891FA -18.99%, #95B7EB 174.81%);
+    box-shadow: 4px 4px 20px #D0B2F5;
+    border-radius: 67px;
+    padding: 18px 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
