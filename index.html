@@ -353,20 +353,20 @@
                 <p class="modal__text">Введите нужные вам параметры</p>
                 <div class="modal__gradient" style="top:155px"></div>
                 <form class="form__modal">
-                    <div class="form__modal-row">
+                    <div class="form__modal-row" style="align-items: center;">
                         <label class="form__modal-calculate-label">
                             <p class="form__modal-text">Высота</p>
-                            <input type="number" class="form__modal-input" id="modal-y" min="30" max="250" value="30">
+                            <input type="number" class="form__modal-input" id="modal-y" min="30" max="250" value="30" style="width: 100%;">
                         </label>
                         <span class="form__modal-devider">X</span>
                         <label class="form__modal-calculate-label">
                             <p class="form__modal-text">Ширина</p>
-                            <input type="number" class="form__modal-input" id="modal-x" min="30" max="250" value="30">
+                            <input type="number" class="form__modal-input" id="modal-x" min="30" max="250" value="30" style="width: 100%;">
                         </label>
                     </div>
                     <button class="form__modal-compute" id="compute">Рассчитать</button>
                 </form>
-                <div class="compute-result-block">Итого: <div id="compute-result">0</div> рублей</div>
+                <div class="compute-result-block">Итого: <div id="compute-result">0</div> <div id="compute-end-word">рублей</div>
             </div>
         </div>
     </div>

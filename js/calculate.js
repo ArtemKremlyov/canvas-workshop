@@ -1,8 +1,12 @@
+// Show modal button
+const showButton = document.querySelector('.about__button');
+
 // Modal inputs & button
 const heightInput = document.getElementById('modal-y');
 const widthInput = document.getElementById('modal-x');
 const computeButton = document.getElementById('compute');
 const resultBlock = document.getElementById('compute-result');
+const endWordElem = document.getElementById('compute-end-word');
 
 // Const
 const calculateModalElem = document.querySelector('.calculate-modal');
@@ -46,14 +50,22 @@ function setValuesInBlock(e) {
 
     let height = heightInput.value;
     let width = widthInput.value;
+    let endWord = 'рублей';
 
     let result = calculate(width, height);
+
+    result % 10 < 5 ? endWord = 'рубля' : '';
+
+    endWordElem.textContent = endWord;
     resultBlock.textContent = result;
 }
 
 
 
 // Event listeners
+
 computeButton.addEventListener('click', e => setValuesInBlock(e));
-calculateModalElem.addEventListener('click', e=> e.target === this ? e.target.toggle('hidden') : '');
+calculateModalElem.addEventListener('click', function(e) {
+    e.target === this ? this.classList.add('hidden') : console.log(this);
+});
 
