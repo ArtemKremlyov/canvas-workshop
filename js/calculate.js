@@ -1,3 +1,9 @@
+// Modal inputs & button
+const heightInput = document.getElementById('modal-y');
+const widthInput = document.getElementById('modal-x');
+const computeButton = document.getElementById('compute');
+const resultBlock = document.getElementById('compute-result');
+
 // Const
 const calculateModalElem = document.querySelector('.calculate-modal');
 
@@ -30,11 +36,24 @@ function calculate(width, height) {
 }
 
 // Modal func
-function calculateModal() {
+function toggleCalculateModal() {
     calculateModalElem.classList.toggle('hidden');
-    return 0;
+}
+
+// Value func
+function setValuesInBlock(e) {
+    e.preventDefault();
+
+    let height = heightInput.value;
+    let width = widthInput.value;
+
+    let result = calculate(width, height);
+    resultBlock.textContent = result;
 }
 
 
 
 // Event listeners
+computeButton.addEventListener('click', e => setValuesInBlock(e));
+calculateModalElem.addEventListener('click', e=> e.target === this ? e.target.toggle('hidden') : '');
+

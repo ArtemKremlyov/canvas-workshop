@@ -221,7 +221,7 @@
         </section>
         <section class="advantages" id="advantages">
             <div class="container">
-                <h1 class="advantages__title">НАШИ ПРЕИМУЩЕСТВA</h1>
+                <h1 class="advantages__title">Наши преимущества</h1>
                 <ul class="advantages__list">
                     <li class="advantages__item">
                         <img src="img/icons/2.png" alt="" class="advantages__item-icon">
@@ -345,7 +345,29 @@
                     </label>
                     <button class="form__modal-button">Отправить</button>
                 </form>
-            <div>
+            </div>
+        </div>
+        <div class="calculate-modal hidden">
+            <div class="calculate-modal__window">
+                <h5 class="modal__title">Рассчитать стоимость</h5>
+                <p class="modal__text">Введите нужные вам параметры</p>
+                <div class="modal__gradient" style="top:155px"></div>
+                <form class="form__modal">
+                    <div class="form__modal-row">
+                        <label class="form__modal-calculate-label">
+                            <p class="form__modal-text">Высота</p>
+                            <input type="number" class="form__modal-input" id="modal-y" min="30" max="250" value="30">
+                        </label>
+                        <span class="form__modal-devider">X</span>
+                        <label class="form__modal-calculate-label">
+                            <p class="form__modal-text">Ширина</p>
+                            <input type="number" class="form__modal-input" id="modal-x" min="30" max="250" value="30">
+                        </label>
+                    </div>
+                    <button class="form__modal-compute" id="compute">Рассчитать</button>
+                </form>
+                <div class="compute-result-block">Итого: <div id="compute-result">0</div> рублей</div>
+            </div>
         </div>
     </div>
     <script src="js/modal.js"></script>

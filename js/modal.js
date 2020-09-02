@@ -19,7 +19,6 @@ function modality(selectors) {
 }
 function toggleModal() {
     modal.classList.toggle('hidden');
-    console.log(312321312132)
 }
 
 modality(['#call_modal_1','#call_modal_2','#call_modal_3','#call_modal_4','#call_modal_5'])

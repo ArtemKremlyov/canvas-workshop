@@ -1,4 +1,4 @@
-.modal {
+.modal,.calculate-modal {
     position: fixed;
     top: 0;
     right: 0;
@@ -12,10 +12,16 @@
 .modal.hidden {
     position: inherit;
 }
+.calculate-modal.hidden {
+    position: inherit;
+}
 .modal.hidden .modal__window {
     right: -3000px;
 }
-.modal__window {
+.calculate-modal.hidden .calculate-modal__window {
+    right: -3000px;
+}
+.modal__window,.calculate-modal__window {
     position: absolute;
     right: 50%;
     top: 50%;
@@ -113,4 +119,48 @@
     font-size: 22px;
     line-height: 26px;
     color: #FFFFFF;
+}
+.compute-result-block {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #494949;
+
+    display: flex;
+    align-items: center;
+}
+#compute-result {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    margin: 0 7px;
+}
+#compute {
+    width: 184px;
+    height: 62px;
+    background: linear-gradient(259.42deg, #F891FA -18.99%, #95B7EB 174.81%);
+    box-shadow: 4px 4px 20px #D0B2F5;
+    border-radius: 67px;
+    margin-bottom: 85px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color:#FFFFFF;
+}
+.form__modal-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #494949;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
