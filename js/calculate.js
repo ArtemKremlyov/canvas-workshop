@@ -63,7 +63,7 @@ function setValuesInBlock(e) {
 
 
 // Event listeners
-
+showButton.addEventListener('click', toggleModal)
 computeButton.addEventListener('click', e => setValuesInBlock(e));
 calculateModalElem.addEventListener('click', function(e) {
     e.target === this ? this.classList.add('hidden') : console.log(this);
