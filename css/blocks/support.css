@@ -12,8 +12,8 @@
     text-align: center;
     position: relative;
     padding-top: 150px;
-    padding-left: 34px;
-    padding-right: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 28px;
     border-radius: 14px;
 }
@@ -31,4 +31,7 @@
 }
 .support__item:last-child {
     margin-right: 0;
+}
+.support__item .wrap button{
+    width: 95%;
 }
