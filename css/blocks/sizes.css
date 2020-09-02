@@ -5,10 +5,20 @@
     background-size: cover;
     background-position-y: 278px;
     background-repeat: no-repeat;
+    position: relative;
 }
 .sizes__title {
     font-family: Roboto;
     font-weight: bold;
     font-size: 48px;
     color: #494949;
+}
+.sizes__back {
+    background-image: url('../../img/sizes-background.png');
+    position: absolute;
+    width: 100%;
+    height: 514px;
+    background-size: cover;
+    top: 357px;
+    z-index: -1;
 }

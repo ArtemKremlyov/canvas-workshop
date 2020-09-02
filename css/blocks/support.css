@@ -21,9 +21,9 @@
     top: -54px;
 }
 .support__item-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;   
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px; 
     font-size: 18px;
     text-align: center;
     line-height: 25px;

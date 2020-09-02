@@ -24,22 +24,21 @@
     justify-content: center;
 }
 .portfolio__slider-title {
-    font-family: Roboto;
-    font-style: normal;
+    font-family: Open Sans;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 33px;
     color: #000000;
     margin-bottom: 35px;
 }
 .portfolio__slider-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
+    font-family: Open Sans;
+    font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #000000;
     max-width: 341px;
+    margin: 0;
 }
 .portfolio__slider-img {
     width: 521px;

@@ -10,9 +10,9 @@
     color: #494949;
 }
 .about__text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0.005em;
@@ -40,10 +40,9 @@
     left: 20px;
 }
 .about__item-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 143.19%;
     color: #515151;
     padding-left: 73px;

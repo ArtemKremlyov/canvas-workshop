@@ -1,6 +1,6 @@
 .callback {
     background-image: url(../../img/callback-background.png);
-    background-size: 100%;
+    background-size: cover;
     padding-bottom: 273px;
 }
 .callback .container {
@@ -18,11 +18,11 @@
     color: #494949;
 }
 .callback__text {
-    font-family: Montserrat;
+    font-family: Open Sans;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 76px;
 }
 .callback__form-row {

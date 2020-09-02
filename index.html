@@ -26,22 +26,22 @@
                     <nav class="nav">
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">О нас</a>
+                                <a href="#about" class="nav__item-link">О нас</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">Размеры</a>
+                                <a href="#sizes" class="nav__item-link">Размеры</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">Виды</a>
+                                <a href="#types" class="nav__item-link">Виды</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">Преимущества</a>
+                                <a href="#advantages" class="nav__item-link">Преимущества</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">Наши работы</a>
+                                <a href="#portfolio" class="nav__item-link">Наши работы</a>
                             </li>
                             <li class="nav__item">
-                                <a href="" class="nav__item-link">Контакты</a>
+                                <a href="#contacts" class="nav__item-link">Контакты</a>
                             </li>
                         </ul>
                     </nav>
@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="hero__column">
-                    <div class="hero__slider" style="background-image: url(img/kombi2.png);"></div>
+                    <div class="hero__slider" style="background-image: url(img/hero-sell.png);"></div>
                 </div>
             </div>
         </section>
@@ -93,7 +93,7 @@
                 </ul>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <h1 class="about__title">О НАС</h1>
                 <p class="about__text">
@@ -126,13 +126,14 @@
                 </ul>
             </div>
         </section>
-        <section class="sizes">
+        <section class="sizes" id="sizes" style="background: transparent;">
             <div class="container">
                 <h5 class="sizes__title">Популярные размеры</h5>
                 <img src="img/sizes-illustration.png" alt="иллюстрация размеров картин" class="sizes__img">
             </div>
+            <div class="sizes__back"></div>
         </section>
-        <section class="groups">
+        <section class="groups" id="types">
             <div class="container">
                 <div class="groups-bck" style="background-image:url(img/moon.png)"></div>
                 <h1 class="groups__title">Виды работ</h1>
@@ -218,7 +219,7 @@
                 </ul>
             </div>
         </section>
-        <section class="advantages">
+        <section class="advantages" id="advantages">
             <div class="container">
                 <h1 class="advantages__title">НАШИ ПРЕИМУЩЕСТВA</h1>
                 <ul class="advantages__list">
@@ -267,7 +268,7 @@
                 <img src="img/invite-illustration.png" alt="" class="invite__img">
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container container--center">
                 <h5 class="portfolio__title">Наши работы</h5>
                 <ul class="portfolio__slider">
@@ -293,7 +294,7 @@
                 <button></button>
             </div>
         </section>
-        <section class="callback">
+        <section class="callback" id="contacts">
             <div class="container">
                 <h5 class="callback__title">Остались вопросы?</h5>
                 <p class="callback__text">Пожалуйста, оставьте свои контакты и мы свяжемся с Вами в ближайшее время</p>
@@ -348,6 +349,8 @@
         </div>
     </div>
     <script src="js/modal.js"></script>
+    <script src="js/calculate.js"></script>
+    <script src="js/scroll.js"></script>
     <script>
         $(document).ready(function(){
             $(".portfolio__slider").owlCarousel({
