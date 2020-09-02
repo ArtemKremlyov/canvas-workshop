@@ -43,6 +43,7 @@
 .portfolio__slider-img {
     width: 521px;
     height: 396px;
+    border-radius: 14px;
 }
 .portfolio__slider-column:nth-child(2) {
     margin-left: 63px;
