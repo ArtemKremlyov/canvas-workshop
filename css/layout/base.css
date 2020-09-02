@@ -15,6 +15,7 @@ button {
     background: transparent;
     border: 0;
     cursor: pointer;
+    outline: none;
 }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {

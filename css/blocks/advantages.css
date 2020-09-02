@@ -9,6 +9,20 @@
     font-size: 48px;
     line-height: 65px;
     color: #303030;
+    margin-bottom: 54px;
+}
+.advantages__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 143.19%;
+    color: #5B5B5B;
+    margin-bottom: 91px;
+    max-width: 630px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .advantages__list{
     width: 100%;
