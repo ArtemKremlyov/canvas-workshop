@@ -8,7 +8,7 @@ const computeButton = document.getElementById('compute');
 const resultBlock = document.getElementById('compute-result');
 const endWordElem = document.getElementById('compute-end-word');
 
-// Const
+// Const 2
 const calculateModalElem = document.querySelector('.calculate-modal');
 
 const sqrtCmPrices = { // Коэфы по размерам
