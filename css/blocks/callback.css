@@ -9,11 +9,11 @@
     align-items: center;
 }
 .callback__title {
-    font-family: Roboto;
+    font-family: Prata;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 48px;
-    line-height: 56px;
+    line-height: 65px;
     margin-bottom: 26px;
     color: #494949;
 }

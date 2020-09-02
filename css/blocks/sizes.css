@@ -8,9 +8,11 @@
     position: relative;
 }
 .sizes__title {
-    font-family: Roboto;
-    font-weight: bold;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
     font-size: 48px;
+    line-height: 65px;
     color: #494949;
 }
 .sizes__back {

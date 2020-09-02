@@ -3,10 +3,11 @@
     text-align: center;
 }
 .about__title {
-    font-family: Roboto;
+    font-family: Prata;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 48px;
+    line-height: 65px;
     color: #494949;
 }
 .about__text {
@@ -41,7 +42,7 @@
 }
 .about__item-text {
     font-family: Open Sans;
-    font-weight: normal;
+     font-weight: normal;
     font-size: 14px;
     line-height: 143.19%;
     color: #515151;
