@@ -44,3 +44,9 @@
     display: flex;
     width: 100%;
 }
+.slider-main__item {
+    height: 100%;
+}
+.slider-main .owl-stage-outer .owl-stage .owl-item{
+    height: 100%;
+}
