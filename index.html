@@ -53,17 +53,34 @@
         </header>
         <section class="hero">
             <div class="container container--header">
-                <div class="hero__column">
-                    <h5 class="hero__title">Сет из трех картин за 5999 вместо 7500</h5>
-                    <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
-                    <div class="hero__buttons">
-                        <button class="button button--purple" id="call_modal_1">Заказать</button>
-                        <a href="#" class="button button--transparent" id="">Наши работы</a>
-                    </div>
-                </div>
-                <div class="hero__column">
-                    <div class="hero__slider" style="background-image: url(img/hero-sell.png);"></div>
-                </div>
+                <ul class="slider-main">
+                    <li class="slider-main__item">
+                        <div class="hero__column">
+                            <h5 class="hero__title">Сет из трех картин за 5999 вместо 7500</h5>
+                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
+                            <div class="hero__buttons">
+                                <button class="button button--purple" id="call_modal_1">Заказать</button>
+                                <a href="#" class="button button--transparent" id="">Наши работы</a>
+                            </div>
+                        </div>
+                        <div class="hero__column">
+                            <div class="hero__slider" style="background-image: url(img/kombi1.png);"></div>
+                        </div>
+                    </li>
+                    <li class="slider-main__item">
+                        <div class="hero__column">
+                            <h5 class="hero__title">Сет из пяти картин за 7999 вместо 9500</h5>
+                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
+                            <div class="hero__buttons">
+                                <button class="button button--purple" id="call_modal_1">Заказать</button>
+                                <a href="#" class="button button--transparent" id="">Наши работы</a>
+                            </div>
+                        </div>
+                        <div class="hero__column">
+                            <div class="hero__slider" style="background-image: url(img/hero-sell.png);"></div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="support">
@@ -380,6 +397,15 @@
                 items: 1,
                 nav: true,
                 navText: []
+            });
+
+            $(".slider-main").owlCarousel({
+                items: 1,
+                nav: true,
+                navText: [],
+                loop: true,
+                autoplay: true,
+                autoplaySpeed: 1000
             });
         });
     </script>
