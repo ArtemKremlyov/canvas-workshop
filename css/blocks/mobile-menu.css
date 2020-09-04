@@ -5,6 +5,7 @@
     top: 0;
     height: 100%;
     transition: 0.4s;
+    z-index: 9999;
 
     background-image: url(../../img/mobile-background.png);
     background-color: #F3F2F2;
