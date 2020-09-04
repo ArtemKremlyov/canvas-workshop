@@ -137,6 +137,10 @@
         background-size: cover;
         background-position-x: 0 !important;
     }
+    .flip-card__custom {
+        background-position-x: -50px !important;
+        background-repeat: no-repeat;
+    }
 
 
     /* ADVANTAGES */
@@ -195,7 +199,7 @@
         border-radius: 22px;
     }
     .modal__gradient {
-        top: 49px;
+        top: 49px !important;
     }
     .modal__title {
         font-family: Prata;
@@ -233,4 +237,40 @@
     .calculate-modal__window .form__modal-row {
         width: 100% !important;
     }
-} 
+
+
+    /* FOOTER */
+    .footer__item {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .footer__logo {
+        order: 1;
+    }
+    .footer__item.adress::before {
+        width: 15px;
+        height: 11px;
+    }
+    .footer__item.email::before {
+        width: 10px;
+        height: 9px;
+    }
+    .footer__item.tel::before {
+        width: 12px;
+        height: 12px;
+    }
+    .footer__logo-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer__logo-img {
+        height: 62px;
+    }
+    .footer__delivery {
+        display: none;
+    }
+    .footer__logo {
+        text-align: center;
+        flex-direction: column;
+    }
+ } 

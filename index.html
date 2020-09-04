@@ -13,6 +13,7 @@
         crossorigin="anonymous">
     </script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/sendmail.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -306,7 +307,7 @@
                 <ul class="portfolio__slider">
                     <li class="portfolio__slider-item" style="width: 100%;">
                         <div class="portfolio__slider-column">
-                            <img src="img/portfolio-img.png" alt="" class="portfolio__slider-img">
+                            <img src="img/reviews/markelov.jpg" alt="" class="portfolio__slider-img">
                         </div>
                         <div class="portfolio__slider-column">
                             <p class="portfolio__slider-title">Иванов Иван Иванович</p>
@@ -363,7 +364,7 @@
                 <h5 class="modal__title">Отправьте заявку</h5>
                 <p class="modal__text">Мы свяжемся с вами в ближайшее время</p>
                 <div class="modal__gradient"></div>
-                <form class="form__modal">
+                <form class="form__modal main-modal-form">
                     <div class="form__modal-row">
                         <input type="text" class="form__modal-input" id="modal-name" name="Имя" placeholder="Имя" style="margin-right: 32px;">
                         <input type="text" class="form__modal-input" id="modal-number" name="Номер телефона" placeholder="+7(___)___-__-__">
@@ -371,6 +372,7 @@
                     <div class="form__modal-row">
                         <textarea type="text" class="form__modal-input" id="modal-comm" name="Комментарий" placeholder="Сообщение" style="height: 180px;margin-bottom: 30px;"></textarea>
                     </div>
+                    <input type="file" name="file" id="">
                     <label class="form__modal-label">
                         <input type="radio" name="Согласен на обработку" id="" class="form__modal-radio">
                         <p class="form__modal-agree">Я согласен на обработку персональных данных</p>
@@ -431,6 +433,16 @@
     <script src="js/mobile-menu.js"></script>
     <script>
         $(document).ready(function(){
+            $('.main-modal-form').sendMail({
+                // Параметры...
+            });
+
+            $('.main-modal-form').on('success.sml',function () {
+                toggleModal();
+                showWindow('success');
+            })
+
+
             $(".portfolio__slider").owlCarousel({
                 items: 1,
                 nav: true,

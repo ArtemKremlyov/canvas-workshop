@@ -1,3 +1,7 @@
+// Error modal
+const errorModal = document.querySelector('.error-modal');
+const errorResult = document.querySelector('.error-result');
+
 // Blocks
 const modal = document.querySelector('.modal');
 const closeModal = document.querySelector('.modal-close');
@@ -19,6 +23,10 @@ function modality(selectors) {
 }
 function toggleModal() {
     modal.classList.toggle('hidden');
+}
+
+function showWindow(type) {
+    
 }
 
 modality(['#call_modal_1','#call_modal_2','#call_modal_3','#call_modal_4','#call_modal_5'])
