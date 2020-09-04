@@ -1,0 +1,73 @@
+
+
+@media (max-width:768px) {
+    .slider-main__item {
+        flex-direction: column;
+        padding-top: 91px;
+    }
+    .hero__column {
+        width: 100% !important;
+        text-align: center;
+    }
+    .hero__title {
+        font-size: 26px;
+    }
+    .hero__buttons {
+        flex-direction: column;
+    }
+
+    /* ABOUT */
+    .about__title, .sizes__title, .groups__title, .advantages__title, .portfolio__title, .callback__title {
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .about__text {
+        font-size: 12px;
+    }
+    .button--green {
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .button {
+        height: 38px;
+    }
+    .container--about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__title, .about__text {
+        order: 0;
+    }
+    .about__button {
+        order: 4;
+    }
+    .about__list {
+        flex-wrap: wrap;
+    }
+    .about__item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about__item-text {
+        padding-left: 0;
+        font-size: 10px;
+    }
+    .about__item-number {
+        font-size: 18px;
+    }
+
+
+    /* GROUPS */
+    .flip-card {
+        max-width: 50%;
+        flex: 0 0 50%;
+        height: 130px;
+    }
+} 
