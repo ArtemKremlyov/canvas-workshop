@@ -1,4 +1,4 @@
-$(".nav__item-link").on("click", function (e) {
+$(".nav__item-link, .mobile-menu__link").on("click", function (e) {
     e.preventDefault();
     var id  = $(this).attr('href'),
         top = $(id).offset().top;

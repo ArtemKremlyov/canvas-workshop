@@ -398,13 +398,37 @@
                     </div>
                     <button class="form__modal-compute" id="compute">Рассчитать</button>
                 </form>
-                <div class="compute-result-block">Итого: <div id="compute-result">0</div> <div id="compute-end-word">рублей</div>
+                <div class="compute-result-block">Итого: <div id="compute-result">0</div> <div id="compute-end-word">рублей</div></div>
             </div>
+        </div>
+        <div class="mobile-menu hidden">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="#about" class="mobile-menu__link">О нас</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#sizes" class="mobile-menu__link">Размеры</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#types" class="mobile-menu__link">Виды</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#advantages" class="mobile-menu__link">Преимущества</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#portfolio" class="mobile-menu__link">Наши работы</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="#contacts" class="mobile-menu__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="mobile-menu__close"></div>
         </div>
     </div>
     <script src="js/modal.js"></script>
     <script src="js/calculate.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/mobile-menu.js"></script>
     <script>
         $(document).ready(function(){
             $(".portfolio__slider").owlCarousel({
