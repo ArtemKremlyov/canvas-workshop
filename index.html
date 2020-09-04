@@ -52,6 +52,19 @@
                 </div>
             </div>
         </header>
+        <header class="mobile-header">
+            <div class="container container--mobile-header">
+                <div class="logo header__logo">
+                    <img src="img/icons/logo2.png" alt="Логотип" class="header__logo-img">
+                    <h1 class="header__logo-text">Мастерская холстов и арт портретов</h1>
+                </div>
+                <div class="mobile-header__button">
+                    <span class="mobile-header__item"></span>
+                    <span class="mobile-header__item"></span>
+                    <span class="mobile-header__item mobile-header__item--low"></span>
+                </div>
+            </div>
+        </header>
         <section class="hero">
             <div class="container container--header">
                 <ul class="slider-main">
@@ -407,6 +420,24 @@
                 loop: true,
                 autoplay: false,
                 autoplaySpeed: 1000
+            });
+
+            $(".support__list").owlCarousel({
+                nav: true,
+                navText: [],
+                responsive: {
+                    0 : {
+                        items: 1
+                    },
+                    // breakpoint from 480 up
+                    480 : {
+                        items: 1
+                    },
+                    // breakpoint from 768 up
+                    768 : {
+                        items: 3
+                    }
+                }
             });
         });
     </script>

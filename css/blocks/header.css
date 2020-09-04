@@ -5,6 +5,9 @@
     z-index: 222;
     width: 100%;
 }
+.mobile-header {
+    display: none;
+}
 .header__logo {
     display: flex;
     align-items: center;

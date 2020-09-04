@@ -4,6 +4,9 @@
 .support__list {
     display: flex;
 }
+.support__list .owl-stage-outer {
+    overflow: initial;
+}
 .support__item {
     background-color: #EAE0F7;
     height: 380px;
