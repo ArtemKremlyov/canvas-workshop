@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f4f2c1f-6e4d-48c3-82f1-89a6218039a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/advantages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/callback.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/callback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blocks/support.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/support.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
