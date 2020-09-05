@@ -28,6 +28,12 @@
 .hero__column {
     width: 50%;
 }
+.hero__column-mobile {
+    display: none;
+}
+.hero__column-img {
+    max-width: 100%;
+}
 .hero__column.hero__column:first-child {
     width: 50%;
     display: flex;
