@@ -432,6 +432,13 @@
             </ul>
             <div class="mobile-menu__close"></div>
         </div>
+        <div class="success-modal hidden">
+            <img class="success-modal__icon" src="img/icons/ok-icon.png" alt="успешно!">
+            <button class="success-modal__close"></button>
+            <h5 class="success-modal__title">Спасибо!</h5>
+            <h6 class="success-modal__pretitle">Ваш заказ принят</h6>
+            <p class="success-modal__text">Мы свяжемся с вами в ближайшее время</p>
+        </div>
     </div>
     <script src="js/modal.js"></script>
     <script src="js/calculate.js"></script>
@@ -445,7 +452,7 @@
 
             $('.main-modal-form').on('success.sml',function () {
                 toggleModal();
-                showWindow('success');
+                showWindow();
             })
 
 

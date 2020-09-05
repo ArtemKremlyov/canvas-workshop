@@ -114,6 +114,9 @@
     .support__item {
         height: 300px;
     }
+    .support__list {
+        position: relative;
+    }
     .support__item-text {
         font-size: 12px;
         line-height: 136.19%;
@@ -195,7 +198,7 @@
         background-position-x: 0 !important;
     }
     .flip-card__custom {
-        background-position-x: -50px !important;
+        background-position-x: 50% !important;
         background-repeat: no-repeat;
     }
 
@@ -282,6 +285,9 @@
 
 
     /* CALLBACK */
+    .callback {
+        padding-bottom: 100px;
+    }
     .callback__form {
         max-width: 100%;
     }
@@ -353,6 +359,39 @@
     }
     .calculate-modal__window .form__modal-row {
         width: 100% !important;
+    }
+    .success-modal {
+        width: 288px;
+        height: 190px;
+        padding-bottom: 0;
+        padding-top: 7px;
+        border-radius: 30px;
+    }
+    .success-modal__icon {
+        height: 65px;
+        width: 65px;
+    }
+    .success-modal__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .success-modal__pretitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .success-modal__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .success-modal__close {
+
     }
 
 
