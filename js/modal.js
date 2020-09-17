@@ -17,10 +17,10 @@ function modality(selectors) {
         document.querySelector(elem).addEventListener('click', toggleModal);
     })
     modal.addEventListener('click', function (e) {
-        if(e.target === this) toggleModal();
+        if(e.target === this) toggleModal('.modal');
     })
 }
-function toggleModal() {
+function toggleModal(selector) {
     modal.classList.toggle('hidden');
 }
 
@@ -29,4 +29,23 @@ function showWindow() {
     setTimeout(() => successModal.classList.add('hidden'), 5000)
 }
 
-modality(['#call_modal_1','#call_modal_2','#call_modal_3','#call_modal_4','#call_modal_5'])
+modality(['#call_modal_1', '#call_modal_2', '#call_modal_3', '#call_modal_4', '#call_modal_5', '#call_modal_111', '#call_modal_1111', '#call_modal_1']);
+
+
+
+
+
+// 
+const buttons = document.querySelectorAll('.button--transparent');
+const priceModal = document.querySelector('.price-modal');
+
+for(i = 0;i < buttons.length;i++) {
+ buttons[i].addEventListener('click', function(e) {
+     e.preventDefault();
+     priceModal.classList.toggle('hidden');
+ })   
+}
+
+priceModal.addEventListener('click', function(e) {
+    if(e.target === this) priceModal.classList.toggle('hidden');
+})
