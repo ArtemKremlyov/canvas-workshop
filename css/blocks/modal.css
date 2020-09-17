@@ -242,3 +242,68 @@
     height: 141px;
     flex: 0 0 auto;
 }
+
+.price-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:rgba(0,0,0,0.7);
+        z-index:9999;
+        
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        transition: 0.4s;
+    }
+    .price-modal.hidden {
+        display: none;
+    }
+    .price-modal__window {
+        position: absolute;
+        right:50%;
+        top:50%;
+        transform: translate(50%, -50%);
+        background: #FEF7FF;
+        border-radius: 20px;
+        width: 95%;
+        max-width:833px;
+        padding: 96px 82px;
+        text-align: center;
+    }
+    .price-modal__title {
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 33px;
+        color: #494949;
+    }
+    .price-modal__size {
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #494949;
+        margin-right: 23px;
+    }
+    .price-modal__row {
+        display: flex;
+        align-items: center;
+    }
+    .price-modal__row:nth-child(2n) {
+        margin-top: -30px;
+    }
+    .price-modal__devider {
+        width: 100%;
+        max-width: 147px;
+        height: 1px;
+        background-color:#494949;
+        margin-right: 60px;
+        margin-left: 64px;
+    }
+    .price-modal__img {
+        height:76px;   
+    }
