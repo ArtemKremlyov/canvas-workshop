@@ -1,482 +1,468 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/layout/mobile.css">
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-        crossorigin="anonymous">
-    </script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/sendmail.min.js"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout/mobile.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/sendmail.min.js"></script>
+  <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container container--header">
-                <div class="header__left">
-                    <div class="logo header__logo">
-                        <img src="img/icons/logo2.png" alt="Логотип" class="header__logo-img">
-                        <h1 class="header__logo-text">Мастерская холстов и арт портретов</h1>
-                    </div>
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#about" class="nav__item-link">О нас</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#sizes" class="nav__item-link">Размеры</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#types" class="nav__item-link">Виды</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#advantages" class="nav__item-link">Преимущества</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#portfolio" class="nav__item-link">Наши работы</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#contacts" class="nav__item-link">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header__right">
-                    <div class="tel tel--header">8 800 555 45</div>
-                </div>
-            </div>
-        </header>
-        <header class="mobile-header">
-            <div class="container container--mobile-header">
-                <div class="logo header__logo">
-                    <img src="img/icons/logo2.png" alt="Логотип" class="header__logo-img">
-                    <h1 class="header__logo-text">Мастерская холстов и арт портретов</h1>
-                </div>
-                <div class="mobile-header__button">
-                    <span class="mobile-header__item"></span>
-                    <span class="mobile-header__item"></span>
-                    <span class="mobile-header__item mobile-header__item--low"></span>
-                </div>
-            </div>
-        </header>
-        <section class="hero">
-            <div class="container container--header">
-                <ul class="slider-main">
-                    <li class="slider-main__item">
-                        <div class="hero__column">
-                            <h5 class="hero__title">Сет из трех картин за 5999 вместо 7500</h5>
-                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
-                            <div class="hero__column-mobile">
-                                <img src="img/kombi1.png" alt="иллюстрация сета из 3 картин" class="hero__column-img">
-                            </div>
-                            <div class="hero__buttons">
-                                <button class="button button--purple" id="call_modal_1">Заказать</button>
-                                <a href="#" class="button button--transparent" id="">Наши работы</a>
-                            </div>
-                        </div>
-                        <div class="hero__column hero__column-desktop">
-                            <div class="hero__slider" style="background-image: url(img/kombi1.png);"></div>
-                        </div>
-                    </li>
-                    <li class="slider-main__item">
-                        <div class="hero__column">
-                            <h5 class="hero__title">Сет из пяти картин за 7999 вместо 9500</h5>
-                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
-                            <div class="hero__column-mobile">
-                                <img src="img/hero-sell.png" alt="иллюстрация сета из 3 картин" class="hero__column-img">
-                            </div>
-                            <div class="hero__buttons">
-                                <button class="button button--purple" id="call_modal_11">Заказать</button>
-                                <a href="#" class="button button--transparent" id="">Наши работы</a>
-                            </div>
-                        </div>
-                        <div class="hero__column hero__column-desktop">
-                            <div class="hero__slider" style="background-image: url(img/hero-sell.png);"></div>
-                        </div>
-                    </li>
-                    <li class="slider-main__item">
-                        <div class="hero__column">
-                            <h5 class="hero__title">Сет из пяти картин за 7999 вместо 9500</h5>
-                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
-                            <div class="hero__column-mobile">
-                                <img src="img/hero-sell4.png" alt="иллюстрация сета из 3 картин" class="hero__column-img">
-                            </div>
-                            <div class="hero__buttons">
-                                <button class="button button--purple" id="call_modal_111">Заказать</button>
-                                <a href="#" class="button button--transparent" id="">Наши работы</a>
-                            </div>
-                        </div>
-                        <div class="hero__column hero__column-desktop">
-                            <div class="hero__slider" style="background-image: url(img/hero-sell4.png);"></div>
-                        </div>
-                    </li>
-                    <li class="slider-main__item">
-                        <div class="hero__column">
-                            <h5 class="hero__title">Сет из пяти картин за 7999 вместо 9500</h5>
-                            <p class="hero__text">Данный сет выполнен из 3 картин в следующих размерах две по 87см на 52см и одна 52см на 107см</p>
-                            <div class="hero__column-mobile">
-                                <img src="img/hero-sell5.png" alt="иллюстрация сета из 3 картин" class="hero__column-img">
-                            </div>
-                            <div class="hero__buttons">
-                                <button class="button button--purple" id="call_modal_1111">Заказать</button>
-                                <a href="#" class="button button--transparent" id="">Наши работы</a>
-                            </div>
-                        </div>
-                        <div class="hero__column hero__column-desktop">
-                            <div class="hero__slider" style="background-image: url(img/hero-sell5.png);"></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="support">
-            <div class="container">
-                <ul class="support__list">
-                    <li class="support__item">
-                        <div class="wrap">
-                            <img src="img/icons/ico1.png" alt="" class="support__item-img" style="width: 125px;right: 118px;">
-                            <button class="button button--green" id="call_modal_2">Заказать картину</button>
-                            <p class="support__item-text">Если вы уже знаете, что конкретно хотите подарить вашему близкому человеку, мы с удовольствием примем ваш заказ.</p>
-                        </div>
-                    </li>
-                    <li class="support__item">
-                        <div class="wrap">
-                            <img src="img/icons/ico2.png" alt="" class="support__item-img" style="width: 142px;right: 88px;">
-                            <button class="button button--green" id="call_modal_3">Заказать дизайн</button>
-                            <p class="support__item-text">Наши дизайнеры помогут вам сделать незабываемый подарок для любимого человека.</p>
-                        </div>
-                    </li>
-                    <li class="support__item">
-                        <div class="wrap">
-                            <img src="img/icons/ico3.png" alt="" class="support__item-img" style="width: 195px;right: 64px;">
-                            <button class="button button--green" id="call_modal_4">Помочь с выбором</button>
-                            <p class="support__item-text">Не знаете, что конкретно подарить? Арт или фото на холсте - тогда мы вам поможем!</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <div class="container container--about">
-                <h1 class="about__title">О нас</h1>
-                <p class="about__text">
-                    Основанная более года назад наша мастерская является на данный момент успешно развивающейся ,так как  мы дорожим, внимательно слышим и понимаем нашего клиента.Наша задача сделать так,чтоб Ваш подарок был незабываемым.
-                    <br>
-                    Работаем по всей территории РФ
-                </p>
-                <button class="button button--green about__button">Узнать больше о ценах</button>
-                <ul class="about__list">
-                    <li class="about__item">
-                        <img class=" ls-is-cached lazyloaded" src="img/icons/idea-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px;margin-bottom: -13px">
-                        <p class="about__item-number">282</p>
-                        <p class="about__item-text">Идеи, которые вдохновили наших клиентов</p>
-                    </li>
-                    <li class="about__item">
-                        <img class=" ls-is-cached lazyloaded" src="img/icons/smile-icon.png" style="height: 50px;margin-bottom: -13px" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="">
-                        <p class="about__item-number">115</p>
-                        <p class="about__item-text">Довольных клиентов</p>
-                    </li>
-                    <li class="about__item">
-                        <img class=" ls-is-cached lazyloaded" src="img/icons/arrow-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px;    margin-bottom: -13px">
-                        <p class="about__item-number">10</p>
-                        <p class="about__item-text">Среднее количество продаваемых картин в день</p>
-                    </li>
-                    <li class="about__item">
-                        <img class=" ls-is-cached lazyloaded" src="img/icons/star-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px;    margin-bottom: -13px">
-                        <p class="about__item-number">385</p>
-                        <p class="about__item-text">Дней, как мы радуем наших клиентов</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="sizes" id="sizes" style="background: transparent;">
-            <div class="container">
-                <h5 class="sizes__title">Популярные размеры</h5>
-                <img src="img/sizes-illustration.png" alt="иллюстрация размеров картин" class="sizes__img">
-            </div>
-            <div class="sizes__back"></div>
-        </section>
-        <section class="groups" id="types">
-            <div class="container">
-                <div class="groups-bck" style="background-image:url(img/moon.png)"></div>
-                <h1 class="groups__title">Виды работ</h1>
-                <ul class="groups__list">
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__photo" style="background-image: url('img/works/sport.jpg');"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">КАРТИНЫ ДЛЯ СПОРТСМЕНОВ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                                <div class="flip-card__photo" style="background-image: url('img/works/sport.jpg');"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__photo" style="background-image: url('img/works/family.jpg');background-position-y:-41px;"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">СЕМЕЙНЫЕ КАРТИНЫ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                                <div class="flip-card__photo" style="background-image: url('img/works/family.jpg');background-position-y:-41px;"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__photo" style="background-image: url('img/works/friend.jpg');background-position-x:-116px;"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">КАРТИНЫ ДЛЯ ДРУЗЕЙ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                                <div class="flip-card__photo" style="background-image: url('img/works/friend.jpg');background-position-x:-116px;"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__photo" style="background-image: url('img/works/corporat.jpeg');background-position-x:-126px;"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">КОРПОРАТИВНЫЕ КАРТИНЫ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                                <div class="flip-card__photo" style="background-image: url('img/works/corporat.jpeg');background-position-x:-126px;"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__photo" style="background-image: url('img/works/art.jpg');background-position-x: -167px;"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">КАРТИНЫ В СТИЛЕ АРТ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                                <div class="flip-card__photo" style="background-image: url('img/works/art.jpg');background-position-x: -167px;"></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flip-card">
-                        <div class="flip-card__inner">
-                            <div class="flip-card__front">
-                                <div class="flip-card__custom" style="width:100%;height:100%;background-image:url(img/works/kombi.png);background-size:cover;background-position-x: -77px;border-radius:10px"></div>
-                                <div class="flip-card__dunkel">
-                                    <h1 class="flip-card__text">КОМБИНИРОВАННЫЕ КАРТИНЫ</h1>
-                                </div>
-                            </div>
-                            <div class="flip-card__back">
-                              <div class="flip-card__custom" style="width:100%;height:100%;background-image:url(img/works/kombi.png);background-size:cover;background-position-x: -77px;border-radius:10px"></div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="advantages" id="advantages">
-            <div class="container">
-                <h1 class="advantages__title">Наши преимущества</h1>
-                <p class="advantages__text">Не выходя из дома вы можете заказать нужную вам картину, которую упакуют и доставят вовремя в назначенное место. Мы экономим ваше время и деньги.</p>
-                <ul class="advantages__list">
-                    <li class="advantages__item">
-                        <img src="img/icons/2.png" alt="" class="advantages__item-icon">
-                        <img src="img/numbers/01.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">ДОСТАВКА</h3>
-                        <p class="advantages__item-text">Организуем доставку картины до вашего дома.</p>
-                    </li>
-                    <li class="advantages__item">
-                        <img src="img/icons/3.png" alt="" class="advantages__item-icon">
-                        <img src="img/numbers/02.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">Крафтовая упаковка</h3>
-                        <p class="advantages__item-text">Сыкономим ваши деньги и время,упаковав вам картину. Вам остается только выбрать упаковку по вкусу</p>
-                    </li>
-                    <li class="advantages__item">
-                        <img src="img/icons/4.png" alt="" class="advantages__item-icon">
-                        <img src="img/numbers/03.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">ДИЗАЙН</h3>
-                        <p class="advantages__item-text">У нас работают одни из лучших дизайнеров в России, которые помогут воплотить в реальность все ваши идеи.</p>
-                    </li>
-                    <li class="advantages__item">
-                        <img src="img/icons/5.png" alt="" class="advantages__item-icon">
-                        <img src="img/numbers/04.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">ВРЕМЯ</h3>
-                        <p class="advantages__item-text">В случае если вы забыли про знаменательную дату/событие и совсем нет времени на выбор подарка, мы изготовим картину в кратчайшие сроки</p>
-                    </li>
-                    <li class="advantages__item">
-                        <img src="img/icons/size-icon.png" alt="" class="advantages__item-icon">
-                        <img src="img/numbers/05.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">РАЗМЕР</h3>
-                        <p class="advantages__item-text">Сделаем абсолютно любой размер картины вплоть до миллиметров под любой интерьер</p>
-                    </li>
-                    <li class="advantages__item">
-                        <img src="img/icons/nice-icon.png" class="advantages__item-icon">
-                        <img src="img/numbers/06.png" alt="" class="advantages__item-deeps">
-                        <h3 class="advantages__item-title">КАЧЕСТВО</h3>
-                        <p class="advantages__item-text">Мы продаем запчасти уже более 21 года! Нашему опыту можно доверять</p>
-                    </li>
-                </ul>
-                <button class="button button--green" id="call_modal_5">Заказать картину</button>
-            </div>
-        </section>
-        <section class="invite">
-            <div class="container container--center">
-                <img src="img/invite-illustration.png" alt="" class="invite__img">
-            </div>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <div class="container container--center">
-                <h5 class="portfolio__title">Наши работы</h5>
-                <ul class="portfolio__slider">
-                    <li class="portfolio__slider-item" style="width: 100%;">
-                        <div class="portfolio__slider-column">
-                            <img src="img/reviews/markelov.jpg" alt="" class="portfolio__slider-img">
-                        </div>
-                        <div class="portfolio__slider-column">
-                            <p class="portfolio__slider-title">Иванов Иван Иванович</p>
-                            <p class="portfolio__slider-text">Заказал у вас картину на тему хоккея! Очень хорошо вписалась в интерьер. Обязательно закажу в подарок близким.</p>
-                        </div>
-                    </li>
-                    <li class="portfolio__slider-item" style="width: 100%;">
-                        <div class="portfolio__slider-column">
-                            <img src="img/portfolio-img.png" alt="" class="portfolio__slider-img">
-                        </div>
-                        <div class="portfolio__slider-column">
-                            <p class="portfolio__slider-title">Иванов Иван Иванович</p>
-                            <p class="portfolio__slider-text">Заказал у вас картину на тему хоккея! Очень хорошо вписалась в интерьер. Обязательно закажу в подарок близким.</p>
-                        </div>
-                    </li>
-                </ul>
-                <button></button>
-            </div>
-        </section>
-        <section class="callback" id="contacts">
-            <div class="container">
-                <h5 class="callback__title">Остались вопросы?</h5>
-                <p class="callback__text">Пожалуйста, оставьте свои контакты и мы свяжемся с Вами в ближайшее время</p>
-                <form class="callback__form">
-                    <div class="callback__form-row">
-                        <input type="text" class="callback__form-input" placeholder="Имя" style="margin-right: 21px;">
-                        <input type="text" class="callback__form-input" placeholder="+7 (___)___-__-__">
-                    </div>
-                    <div class="callback__form-row">
-                        <input type="text" class="callback__form-input" placeholder="Email">
-                    </div>
-                    <button class="callback__form-submit button button--green">Отправить</button>
-                </form>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="container container--header container--footer">
-                <div class="logo footer__logo">
-                    <img src="img/icons/logo2.png" alt="Логотип" class="footer__logo-img">
-                    <h1 class="footer__logo-text">Мастерская холстов и арт портретов</h1>
-                </div>
-                <div class="footer__delivery">
-                    Доставка по всей территории России и СНГ
-                </div>
-                <ul class="footer__list">
-                    <li class="footer__item tel">8 800 555 45</li>
-                    <li class="footer__item email">еmail@mail.ru</li>
-                    <li class="footer__item adress">г.Новосибирск, ул.Улица д.35</li>
-                </ul>
-            </div>
-        </footer>
-        <div class="modal hidden">
-            <div class="modal__window">
-                <h5 class="modal__title">Отправьте заявку</h5>
-                <p class="modal__text">Мы свяжемся с вами в ближайшее время</p>
-                <div class="modal__gradient"></div>
-                <form class="form__modal main-modal-form">
-                    <div class="form__modal-row">
-                        <input type="text" class="form__modal-input" id="modal-name" name="Имя" placeholder="Имя" style="margin-right: 32px;">
-                        <input type="text" class="form__modal-input" id="modal-number" name="Номер телефона" placeholder="+7(___)___-__-__">
-                    </div>
-                    <div class="form__modal-row">
-                        <textarea type="text" class="form__modal-input" id="modal-comm" name="Комментарий" placeholder="Сообщение" style="height: 180px;margin-bottom: 30px;"></textarea>
-                    </div>
-                    <!--<input type="file" name="file" id="">-->
-                    <label class="form__modal-label">
-                        <input type="radio" name="Согласен на обработку" id="" class="form__modal-radio">
-                        <p class="form__modal-agree">Я согласен на обработку персональных данных</p>
-                    </label>
-                    <button class="form__modal-button">Отправить</button>
-                </form>
-            </div>
-        </div>
-        <div class="calculate-modal hidden">
-            <div class="calculate-modal__window">
-                <h5 class="modal__title">Рассчитать стоимость</h5>
-                <p class="modal__text">Введите нужные вам параметры в сантиметрах</p>
-                <div class="modal__gradient" style="top:155px"></div>
-                <form class="form__modal" style="display: flex;flex-direction: column;align-items: center;">
-                    <div class="form__modal-row" style="align-items: center;width: 76%;">
-                        <label class="form__modal-calculate-label">
-                            <p class="form__modal-text">Высота</p>
-                            <input type="number" class="form__modal-input" id="modal-y" min="30" max="250" value="30" style="width: 100%;">
-                        </label>
-                        <span class="form__modal-devider">X</span>
-                        <label class="form__modal-calculate-label">
-                            <p class="form__modal-text">Ширина</p>
-                            <input type="number" class="form__modal-input" id="modal-x" min="30" max="250" value="30" style="width: 100%;">
-                        </label>
-                    </div>
-                    <button class="form__modal-compute" id="compute">Рассчитать</button>
-                </form>
-                <div class="compute-result-block">Итого: <div id="compute-result">0</div> <div id="compute-end-word">рублей</div></div>
-            </div>
-        </div>
-        <div class="mobile-menu hidden">
-            <ul class="mobile-menu__list">
-                <li class="mobile-menu__item">
-                    <a href="#about" class="mobile-menu__link">О нас</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="#sizes" class="mobile-menu__link">Размеры</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="#types" class="mobile-menu__link">Виды</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="#advantages" class="mobile-menu__link">Преимущества</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="#portfolio" class="mobile-menu__link">Наши работы</a>
-                </li>
-                <li class="mobile-menu__item">
-                    <a href="#contacts" class="mobile-menu__link">Контакты</a>
-                </li>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container container--header">
+        <div class="header__left">
+          <div class="logo header__logo">
+            <img src="img/icons/logo2.png" alt="Логотип" class="header__logo-img">
+            <h1 class="header__logo-text">Мастерская холстов и арт портретов</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#about" class="nav__item-link">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a href="#sizes" class="nav__item-link">Размеры</a>
+              </li>
+              <li class="nav__item">
+                <a href="#types" class="nav__item-link">Виды</a>
+              </li>
+              <li class="nav__item">
+                <a href="#advantages" class="nav__item-link">Преимущества</a>
+              </li>
+              <li class="nav__item">
+                <a href="#portfolio" class="nav__item-link">Наши работы</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contacts" class="nav__item-link">Контакты</a>
+              </li>
             </ul>
-            <div class="mobile-menu__close"></div>
+          </nav>
         </div>
-        <div class="success-modal hidden">
-            <img class="success-modal__icon" src="img/icons/ok-icon.png" alt="успешно!">
-            <button class="success-modal__close"></button>
-            <h5 class="success-modal__title">Спасибо!</h5>
-            <h6 class="success-modal__pretitle">Ваш заказ принят</h6>
-            <p class="success-modal__text">Мы свяжемся с вами в ближайшее время</p>
+        <div class="header__right">
+          <div class="tel tel--header">
+            8 800 555 45
+          </div>
         </div>
+      </div>
+    </header>
+    <header class="mobile-header">
+      <div class="container container--mobile-header">
+        <div class="logo header__logo">
+          <img src="img/icons/logo2.png" alt="Логотип" class="header__logo-img">
+          <h1 class="header__logo-text">Мастерская холстов и арт портретов</h1>
+        </div>
+        <div class="mobile-header__button">
+          <span class="mobile-header__item"></span> <span class="mobile-header__item"></span> <span class="mobile-header__item mobile-header__item--low"></span>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container container--header">
+        <ul class="slider-main">
+          <li class="slider-main__item">
+            <div class="hero__column">
+              <h5 class="hero__title">Сет из трех картин за 5999 вместо 7500</h5>
+              <p class="hero__text">Не выходя из дома вы можете заказать нужную вам картину, которую упакуют и доставят вовремя в назначенное место. Мы экономим ваше время и деньги.</p>
+              <div class="hero__column-mobile"><img src="img/hero-sell3.png" alt="иллюстрация сета из 3 картин" class="hero__column-img"></div>
+              <div class="hero__buttons">
+                <button class="button button--purple" id="call_modal_1">Заказать</button> <a href="#" class="button button--transparent" id="">Размеры</a>
+              </div>
+            </div>
+            <div class="hero__column hero__column-desktop">
+              <div class="hero__slider" style="background-image: url(img/hero-sell3.png);"></div>
+            </div>
+          </li>
+          <li class="slider-main__item">
+            <div class="hero__column">
+              <h5 class="hero__title">Сет из четырех картин за 7999 вместо 9500</h5>
+              <p class="hero__text">Не выходя из дома вы можете заказать нужную вам картину, которую упакуют и доставят вовремя в назначенное место. Мы экономим ваше время и деньги.</p>
+              <div class="hero__column-mobile"><img src="img/hero-sell4.png" alt="иллюстрация сета из 4 картин" class="hero__column-img"></div>
+              <div class="hero__buttons">
+                <button class="button button--purple" id="call_modal_111">Заказать</button> <a href="#" class="button button--transparent" id="">Размеры</a>
+              </div>
+            </div>
+            <div class="hero__column hero__column-desktop">
+              <div class="hero__slider" style="background-image: url(img/hero-sell4.png);"></div>
+            </div>
+          </li>
+          <li class="slider-main__item">
+            <div class="hero__column">
+              <h5 class="hero__title">Сет из пяти картин за 7999 вместо 9500</h5>
+              <p class="hero__text">Не выходя из дома вы можете заказать нужную вам картину, которую упакуют и доставят вовремя в назначенное место. Мы экономим ваше время и деньги.</p>
+              <div class="hero__column-mobile"><img src="img/hero-sell5.png" alt="иллюстрация сета из 3 картин" class="hero__column-img"></div>
+              <div class="hero__buttons">
+                <button class="button button--purple" id="call_modal_1111">Заказать</button> <a href="#" class="button button--transparent" id="">Размеры</a>
+              </div>
+            </div>
+            <div class="hero__column hero__column-desktop">
+              <div class="hero__slider" style="background-image: url(img/hero-sell5.png);"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="support">
+      <div class="container">
+        <ul class="support__list">
+          <li class="support__item">
+            <div class="wrap">
+              <img src="img/icons/ico1.png" alt="" class="support__item-img" style="width: 125px;right: 118px;"> <button class="button button--green" id="call_modal_2">Заказать картину</button>
+              <p class="support__item-text">Если вы уже знаете, что конкретно хотите подарить вашему близкому человеку, мы с удовольствием примем ваш заказ.</p>
+            </div>
+          </li>
+          <li class="support__item">
+            <div class="wrap">
+              <img src="img/icons/ico2.png" alt="" class="support__item-img" style="width: 142px;right: 88px;"> <button class="button button--green" id="call_modal_3">Заказать дизайн</button>
+              <p class="support__item-text">Наши дизайнеры помогут вам сделать незабываемый подарок для любимого человека.</p>
+            </div>
+          </li>
+          <li class="support__item">
+            <div class="wrap">
+              <img src="img/icons/ico3.png" alt="" class="support__item-img" style="width: 195px;right: 64px;"> <button class="button button--green" id="call_modal_4">Помочь с выбором</button>
+              <p class="support__item-text">Не знаете, что конкретно подарить? Арт или фото на холсте - тогда мы вам поможем!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container container--about">
+        <h1 class="about__title">О нас</h1>
+        <p class="about__text">Основанная более года назад наша мастерская является на данный момент успешно развивающейся ,так как мы дорожим, внимательно слышим и понимаем нашего клиента.Наша задача сделать так,чтоб Ваш подарок был незабываемым.<br>
+        Работаем по всей территории РФ</p><button class="button button--green about__button">Узнать больше о ценах</button>
+        <ul class="about__list">
+          <li class="about__item">
+            <img class="ls-is-cached lazyloaded" src="img/icons/idea-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px;margin-bottom: -13px">
+            <p class="about__item-number">282</p>
+            <p class="about__item-text">Идеи, которые вдохновили наших клиентов</p>
+          </li>
+          <li class="about__item">
+            <img class="ls-is-cached lazyloaded" src="img/icons/smile-icon.png" style="height: 50px;margin-bottom: -13px" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="">
+            <p class="about__item-number">115</p>
+            <p class="about__item-text">Довольных клиентов</p>
+          </li>
+          <li class="about__item">
+            <img class="ls-is-cached lazyloaded" src="img/icons/arrow-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px; margin-bottom: -13px">
+            <p class="about__item-number">10</p>
+            <p class="about__item-text">Среднее количество продаваемых картин в день</p>
+          </li>
+          <li class="about__item">
+            <img class="ls-is-cached lazyloaded" src="img/icons/star-icon.png" data-src="https://dtraktor.com.ua/wp-content/themes/dtraktor/img/number-img-1.png" alt="" style="height: 50px; margin-bottom: -13px">
+            <p class="about__item-number">385</p>
+            <p class="about__item-text">Дней, как мы радуем наших клиентов</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="sizes" id="sizes" style="background: transparent;">
+      <div class="container">
+      <h5 class="sizes__title">Популярные размеры</h5><img src="img/sizes-illustration.png" alt="иллюстрация размеров картин" class="sizes__img"></div>
+      <div class="sizes__back"></div>
+    </section>
+    <section class="groups" id="types">
+      <div class="container">
+        <div class="groups-bck" style="background-image:url(img/moon.png)"></div>
+        <h1 class="groups__title">Виды работ</h1>
+        <ul class="groups__list">
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__photo" style="background-image: url('img/works/sport.jpg');"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">КАРТИНЫ ДЛЯ СПОРТСМЕНОВ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__photo" style="background-image: url('img/works/sport.jpg');"></div>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__photo" style="background-image: url('img/works/family.jpg');background-position-y:-41px;"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">СЕМЕЙНЫЕ КАРТИНЫ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__photo" style="background-image: url('img/works/family.jpg');background-position-y:-41px;"></div>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__photo" style="background-image: url('img/works/friend.jpg');background-position-x:-116px;"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">КАРТИНЫ ДЛЯ ДРУЗЕЙ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__photo" style="background-image: url('img/works/friend.jpg');background-position-x:-116px;"></div>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__photo" style="background-image: url('img/works/corporat.jpeg');background-position-x:-126px;"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">КОРПОРАТИВНЫЕ КАРТИНЫ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__photo" style="background-image: url('img/works/corporat.jpeg');background-position-x:-126px;"></div>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__photo" style="background-image: url('img/works/art.jpg');background-position-x: -167px;"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">КАРТИНЫ В СТИЛЕ АРТ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__photo" style="background-image: url('img/works/art.jpg');background-position-x: -167px;"></div>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="flip-card__custom" style="width:100%;height:100%;background-image:url(img/works/kombi.png);background-size:cover;background-position-x: -77px;border-radius:10px"></div>
+                <div class="flip-card__dunkel">
+                  <h1 class="flip-card__text">КОМБИНИРОВАННЫЕ КАРТИНЫ</h1>
+                </div>
+              </div>
+              <div class="flip-card__back">
+                <div class="flip-card__custom" style="width:100%;height:100%;background-image:url(img/works/kombi.png);background-size:cover;background-position-x: -77px;border-radius:10px"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h1 class="advantages__title">Наши преимущества</h1>
+        <p class="advantages__text">Не выходя из дома вы можете заказать нужную вам картину, которую упакуют и доставят вовремя в назначенное место. Мы экономим ваше время и деньги.</p>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <img src="img/icons/2.png" alt="" class="advantages__item-icon"> <img src="img/numbers/01.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">ДОСТАВКА</h3>
+            <p class="advantages__item-text">Организуем доставку картины до вашего дома.</p>
+          </li>
+          <li class="advantages__item">
+            <img src="img/icons/3.png" alt="" class="advantages__item-icon"> <img src="img/numbers/02.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">Крафтовая упаковка</h3>
+            <p class="advantages__item-text">Сыкономим ваши деньги и время,упаковав вам картину. Вам остается только выбрать упаковку по вкусу</p>
+          </li>
+          <li class="advantages__item">
+            <img src="img/icons/4.png" alt="" class="advantages__item-icon"> <img src="img/numbers/03.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">ДИЗАЙН</h3>
+            <p class="advantages__item-text">У нас работают одни из лучших дизайнеров в России, которые помогут воплотить в реальность все ваши идеи.</p>
+          </li>
+          <li class="advantages__item">
+            <img src="img/icons/5.png" alt="" class="advantages__item-icon"> <img src="img/numbers/04.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">ВРЕМЯ</h3>
+            <p class="advantages__item-text">В случае если вы забыли про знаменательную дату/событие и совсем нет времени на выбор подарка, мы изготовим картину в кратчайшие сроки</p>
+          </li>
+          <li class="advantages__item">
+            <img src="img/icons/size-icon.png" alt="" class="advantages__item-icon"> <img src="img/numbers/05.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">РАЗМЕР</h3>
+            <p class="advantages__item-text">Сделаем абсолютно любой размер картины вплоть до миллиметров под любой интерьер</p>
+          </li>
+          <li class="advantages__item">
+            <img src="img/icons/nice-icon.png" class="advantages__item-icon"> <img src="img/numbers/06.png" alt="" class="advantages__item-deeps">
+            <h3 class="advantages__item-title">КАЧЕСТВО</h3>
+            <p class="advantages__item-text">Мы продаем запчасти уже более 21 года! Нашему опыту можно доверять</p>
+          </li>
+        </ul><button class="button button--green" id="call_modal_5">Заказать картину</button>
+      </div>
+    </section>
+    <section class="invite">
+      <div class="container container--center"><img src="img/invite-illustration.png" alt="" class="invite__img"></div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container container--center">
+        <h5 class="portfolio__title">Наши работы</h5>
+        <ul class="portfolio__slider">
+          <li class="portfolio__slider-item" style="width: 100%;">
+            <div class="portfolio__slider-column"><img src="img/reviews/markelov.jpg" alt="" class="portfolio__slider-img"></div>
+            <div class="portfolio__slider-column">
+              <p class="portfolio__slider-title">Иванов Иван Иванович</p>
+              <p class="portfolio__slider-text">Заказал у вас картину на тему хоккея! Очень хорошо вписалась в интерьер. Обязательно закажу в подарок близким.</p>
+            </div>
+          </li>
+          <li class="portfolio__slider-item" style="width: 100%;">
+            <div class="portfolio__slider-column"><img src="img/portfolio-img.png" alt="" class="portfolio__slider-img"></div>
+            <div class="portfolio__slider-column">
+              <p class="portfolio__slider-title">Иванов Иван Иванович</p>
+              <p class="portfolio__slider-text">Заказал у вас картину на тему хоккея! Очень хорошо вписалась в интерьер. Обязательно закажу в подарок близким.</p>
+            </div>
+          </li>
+        </ul><button></button>
+      </div>
+    </section>
+    <section class="callback" id="contacts">
+      <div class="container">
+        <h5 class="callback__title">Остались вопросы?</h5>
+        <p class="callback__text">Пожалуйста, оставьте свои контакты и мы свяжемся с Вами в ближайшее время</p>
+        <form class="callback__form">
+          <div class="callback__form-row">
+            <input type="text" class="callback__form-input" name="Имя" placeholder="Имя" style="margin-right: 21px;"> <input type="text" class="callback__form-input" name="Номер телефона" placeholder="+7 (___)___-__-__">
+          </div>
+          <div class="callback__form-row">
+            <input type="text" class="callback__form-input" name="Email" placeholder="Email">
+          </div><button class="callback__form-submit button button--green">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container container--header container--footer">
+        <div class="logo footer__logo">
+          <img src="img/icons/logo2.png" alt="Логотип" class="footer__logo-img">
+          <h1 class="footer__logo-text">Мастерская холстов и арт портретов</h1>
+        </div>
+        <div class="footer__delivery">
+          Доставка по всей территории России и СНГ
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item tel">8 800 555 45</li>
+          <li class="footer__item email">admin@masterskaya-holstov.ru</li>
+          <li class="footer__item adress">г.Новосибирск, ул.Улица д.35</li>
+        </ul>
+      </div>
+      <table width="125" border="0" cellspacing="0" cellpadding="0" title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information.">
+        <tr>
+          <td>
+            <span id="ss_img_wrapper_gmogs_image_125-50_en_dblue"><a href="https://www.globalsign.com/" target="_blank" title="GlobalSign Site Seal" rel="nofollow"><img alt="SSL" border="0" id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_125-50_en.gif"></a></span> 
+            <script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_125-50_en_dblue.js"></script>
+          </td>
+        </tr>
+      </table>
+    </footer>
+    <div class="modal hidden">
+      <div class="modal__window">
+        <h5 class="modal__title">Отправьте заявку</h5>
+        <p class="modal__text">Мы свяжемся с вами в ближайшее время</p>
+        <div class="modal__gradient"></div>
+        <form class="form__modal main-modal-form">
+          <div class="form__modal-row">
+            <input type="text" class="form__modal-input" id="modal-name" name="Имя" placeholder="Имя" style="margin-right: 32px;"> <input type="text" class="form__modal-input" id="modal-number" name="Номер телефона" placeholder="+7(___)___-__-__">
+          </div>
+          <div class="form__modal-row">
+            <textarea type="text" class="form__modal-input" id="modal-comm" name="Комментарий" placeholder="Сообщение" style="height: 180px;margin-bottom: 30px;"></textarea>
+          </div><label class="form__modal-label"><input type="radio" name="Согласен на обработку" id="" class="form__modal-radio"></label>
+          <p class="form__modal-agree"><label class="form__modal-label">Я согласен на обработку персональных данных</label></p><button class="form__modal-button">Отправить</button>
+        </form>
+      </div>
     </div>
-    <script src="js/modal.js"></script>
-    <script src="js/calculate.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/mobile-menu.js"></script>
-    <script>
+    <div class="calculate-modal hidden">
+      <div class="calculate-modal__window">
+        <h5 class="modal__title">Рассчитать стоимость</h5>
+        <p class="modal__text">Введите нужные вам параметры в сантиметрах</p>
+        <div class="modal__gradient" style="top:155px"></div>
+        <form class="form__modal" style="display: flex;flex-direction: column;align-items: center;">
+          <div class="form__modal-row" style="align-items: center;width: 76%;">
+            <label class="form__modal-calculate-label"></label>
+            <p class="form__modal-text"><label class="form__modal-calculate-label">Высота</label></p><label class="form__modal-calculate-label"><input type="number" class="form__modal-input" id="modal-y" min="30" max="250" value="30" style="width: 100%;"></label> <span class="form__modal-devider">X</span> <label class="form__modal-calculate-label"></label>
+            <p class="form__modal-text"><label class="form__modal-calculate-label">Ширина</label></p><label class="form__modal-calculate-label"><input type="number" class="form__modal-input" id="modal-x" min="30" max="250" value="30" style="width: 100%;"></label>
+          </div><button class="form__modal-compute" id="compute">Рассчитать</button>
+        </form>
+        <div class="compute-result-block">
+          Итого:
+          <div id="compute-result">
+            0
+          </div>
+          <div id="compute-end-word">
+            рублей
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu hidden">
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__item">
+          <a href="#about" class="mobile-menu__link">О нас</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#sizes" class="mobile-menu__link">Размеры</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#types" class="mobile-menu__link">Виды</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#advantages" class="mobile-menu__link">Преимущества</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#portfolio" class="mobile-menu__link">Наши работы</a>
+        </li>
+        <li class="mobile-menu__item">
+          <a href="#contacts" class="mobile-menu__link">Контакты</a>
+        </li>
+      </ul>
+      <div class="mobile-menu__close"></div>
+    </div>
+    <div class="success-modal hidden">
+      <img class="success-modal__icon" src="img/icons/ok-icon.png" alt="успешно!"> <button class="success-modal__close"></button>
+      <h5 class="success-modal__title">Спасибо!</h5>
+      <h6 class="success-modal__pretitle">Ваш заказ принят</h6>
+      <p class="success-modal__text">Мы свяжемся с вами в ближайшее время</p>
+    </div>
+    <div class="price-modal hidden">
+      <div class="price-modal__window">
+        <div class="modal__gradient"></div>
+        <h5 class="modal__title">Размеры сетов</h5>
+        <p class="modal__text">Размерная сетка сетов по акции</p>
+        <ul class="price-modal__list">
+          <li class="price-modal__item">
+            <div class="price-modal__row">
+            <h6 class="price-modal__title">Сет из 3 картин</h6>
+            <div class="price-modal__devider"></div><img class="price-modal__img" src="img/icons/canvas3.png"></div>
+            <div class="price-modal__row">
+              <p class="price-modal__size">2x - 52см на 87см</p>
+              <p class="price-modal__size">1x - 52см на 107см</p>
+            </div>
+          </li>
+          <li class="price-modal__item">
+            <div class="price-modal__row">
+            <h6 class="price-modal__title">Сет из 4 картин</h6>
+            <div class="price-modal__devider"></div><img class="price-modal__img" src="img/icons/canvas4.png"></div>
+            <div class="price-modal__row">
+              <p class="price-modal__size">4x - 52см на 107см</p>
+            </div>
+          </li>
+          <li class="price-modal__item">
+            <div class="price-modal__row">
+            <h6 class="price-modal__title">Сет из 5 картин</h6>
+            <div class="price-modal__devider"></div><img class="price-modal__img" src="img/icons/canvas5.png"></div>
+            <div class="price-modal__row">
+              <p class="price-modal__size">2x - 52см на 87см</p>
+              <p class="price-modal__size">2x - 52см на 107см</p>
+              <p class="price-modal__size">1x - 52см на 107см</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div style="visibility: hidden"></div>
+  <script src="js/modal.js"></script> 
+  <script src="js/calculate.js"></script> 
+  <script src="js/scroll.js"></script> 
+  <script src="js/mobile-menu.js"></script> 
+  <script>
+
+
         $(document).ready(function(){
             $('.main-modal-form').sendMail({
                 // Параметры...
@@ -484,6 +470,15 @@
 
             $('.main-modal-form').on('success.sml',function () {
                 toggleModal();
+                showWindow();
+            })
+            
+            
+            $('.callback__form').sendMail({
+                // Параметры...
+            });
+
+            $('.callback__form').on('success.sml',function () {
                 showWindow();
             })
 
@@ -523,6 +518,6 @@
                 }
             });
         });
-    </script>
+  </script>
 </body>
 </html>
